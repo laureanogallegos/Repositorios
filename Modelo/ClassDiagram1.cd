@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Modelo.Banco">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Banco.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modelo.CuentaEmpresa">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAABAAA=</HashCode>
+      <FileName>CuentaEmpresa.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Banco" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Modelo.CuentaPersonal">
+    <Position X="6" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>CuentaPersonal.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Banco" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Modelo.RepositorioCuentaEmpresas">
+    <Position X="9.25" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAQAAAAAAAACAAAAgAAAAAAAAACAAAgAAAAAAA=</HashCode>
+      <FileName>RepositorioCuentaEmpresas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modelo.RepositorioCuentaPersonales">
+    <Position X="9.25" Y="3.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RepositorioCuentaPersonales.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
